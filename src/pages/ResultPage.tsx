@@ -3,7 +3,7 @@ import { Download, RefreshCw, Share2, CheckCircle, MessageCircle, Send } from 'l
 import { useState } from 'react';
 import { Scene3D } from '../components/Scene3D';
 import { ParticleField } from '../components/ParticleField';
-import { chatWithAI } from '../api/api';
+import { chatWithAI } from '../services/api';
 
 interface ResultPageProps {
   onRegenerate: () => void;
